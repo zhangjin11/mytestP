@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor orangeColor];
+    
 }
 - (IBAction)ActionSheetClick:(id)sender {
     UIAlertController * alertController = [UIAlertController alertControllerWithTitle: @"弹出框"                                                                             message: @"弹出框测试效果"                                                                       preferredStyle:UIAlertControllerStyleActionSheet];
